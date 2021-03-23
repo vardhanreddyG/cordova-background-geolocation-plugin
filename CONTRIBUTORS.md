@@ -1,4 +1,4 @@
-Many thanks to all contributors and special thanks to [christocracy](https://github.com/christocracy) as former autor.
+Many thanks to all contributors and special thanks to [christocracy](https://github.com/christocracy) as former author.
 
 * [christocracy](https://github.com/christocracy)
 * [huttj](https://github.com/huttj)
