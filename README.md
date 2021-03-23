@@ -1,15 +1,12 @@
-# @mauron85/cordova-plugin-background-geolocation
+# @haylltd/cordova-plugin-background-geolocation
 
-## We're moving
+## New home
 
-Npm package is now [@mauron85/cordova-plugin-background-geolocation](https://www.npmjs.com/package/@mauron85/cordova-plugin-background-geolocation)!
+Hayl Ltd have forked the repository from mauron85 and will be maintaining it and merging PRs from the community. If you have any fixes, features or updates that you would like included, please do raise a PR or issue on the GitHub repository.
 
+We are also looking to maintainers to help with this, so that the project does not end up orphaned. If you are interested in helping out with maintaining the project, please see the [pinned discussion at GitHub](https://github.com/HaylLtd/cordova-plugin-background-geolocation/discussions/3).
 
-## Donation
-
-Please support my work and continued development with your donation.
-
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KTUXQQD85F666)
+The new NPM package is [@haylltd/cordova-plugin-background-geolocation](https://www.npmjs.com/package/@haylltd/cordova-plugin-background-geolocation).
 
 ## Submitting issues
 
