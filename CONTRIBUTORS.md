@@ -1,5 +1,8 @@
-Many thanks to all contributors and special thanks to [christocracy](https://github.com/christocracy) as former author.
+# Contributors
 
+Many thanks to all contributors and special thanks to [christocracy](https://github.com/christocracy) as former author, and [mauron85](https://github.com/mauron85).
+
+* [mauron85](https://github.com/mauron85)
 * [christocracy](https://github.com/christocracy)
 * [huttj](https://github.com/huttj)
 * [erikkemperman](https://github.com/erikkemperman)
