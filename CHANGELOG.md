@@ -1,5 +1,11 @@
 # Changelog
 
+## [Unreleased](https://github.com/HaylLtd/cordova-background-geolocation-plugin/tree/HEAD)
+
+**Documentation:**
+
+- Change project and package name to "cordova-background-geolocation-plugin" [\#12](https://github.com/HaylLtd/cordova-background-geolocation-plugin/issues/12)
+
 ## [1.0.0-rc.2](https://github.com/HaylLtd/cordova-background-geolocation-plugin/tree/1.0.0-rc.2) (2021-05-01)
 
 ## [1.0.0-rc.1](https://github.com/HaylLtd/cordova-background-geolocation-plugin/tree/1.0.0-rc.1) (2021-05-01)
@@ -10,7 +16,6 @@
 
 **Closed issues:**
 
-- Move platform specific sub modules into main repository [\#22](https://github.com/HaylLtd/cordova-background-geolocation-plugin/issues/22)
 - Use Github actions to automate npm publish [\#17](https://github.com/HaylLtd/cordova-background-geolocation-plugin/issues/17)
 - Improve issue templates [\#10](https://github.com/HaylLtd/cordova-background-geolocation-plugin/issues/10)
 - Looking for maintainers [\#2](https://github.com/HaylLtd/cordova-background-geolocation-plugin/issues/2)
