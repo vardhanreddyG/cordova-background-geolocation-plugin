@@ -12,7 +12,7 @@
 
 **Fixed bugs:**
 
-- fix\(ios\): fix notification crash when debug=true [\#20](https://github.com/HaylLtd/cordova-background-geolocation-plugin/pull/20)
+- fix\(ios\): fix notification crash when debug=true [\#20](https://github.com/HaylLtd/cordova-background-geolocation-plugin/pull/20) ([RaddishIoW](https://github.com/RaddishIoW))
 
 **Closed issues:**
 
