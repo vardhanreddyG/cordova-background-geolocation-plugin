@@ -9,6 +9,7 @@
 **Closed issues:**
 
 - Move platform specific sub modules into main repository [\#22](https://github.com/HaylLtd/cordova-background-geolocation-plugin/issues/22)
+- Use Github actions to automate npm publish [\#17](https://github.com/HaylLtd/cordova-background-geolocation-plugin/issues/17)
 - Improve issue templates [\#10](https://github.com/HaylLtd/cordova-background-geolocation-plugin/issues/10)
 - Looking for maintainers [\#2](https://github.com/HaylLtd/cordova-background-geolocation-plugin/issues/2)
 
