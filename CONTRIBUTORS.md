@@ -11,3 +11,5 @@ Many thanks to all contributors and special thanks to [christocracy](https://git
 * [nevyn](https://github.com/nevyn)
 * [unixmonkey](https://github.com/unixmonkey)
 * [Arakaki-Yuji](https://github.com/Arakaki-Yuji)
+* [HarelM](https://github.com/HarelM)
+* [RaddishIoW](https://github.com/RaddishIoW)

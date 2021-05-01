@@ -1,7 +1,7 @@
-// Type definitions for cordova-plugin-mauron85-background-geolocation.
-// Project: https://github.com/mauron85/cordova-plugin-background-geolocation
+// Type definitions for cordova-background-geolocation-plugin.
+// Project: https://github.com/HaylLtd/cordova-background-geolocation-plugin
 // Definitions by: Mauron85 (@mauron85), Norbert Györög (@djereg)
-// Definitions: https://github.com/mauron85/cordova-plugin-background-geolocation/blob/master/www/BackgroundGeolocation.d.ts
+// Definitions: https://github.com/HaylLtd/cordova-background-geolocation-plugin/blob/master/www/BackgroundGeolocation.d.ts
 
 type Event = 'location' | 'stationary' | 'activity' | 'start' | 'stop' | 'error' | 'authorization' | 'foreground' | 'background' | 'abort_requested' | 'http_authorization';
 type HeadlessTaskEventName = 'location' | 'stationary' | 'activity';
@@ -572,7 +572,6 @@ export interface BackgroundGeolocationPlugin {
    *
    * @param success
    * @param fail
-   * @see {@link https://github.com/mauron85/react-native-background-geolocation#getlocationssuccess-fail|Docs}
    */
   getLocations(
     success: (locations: Location[]) => void,
@@ -584,7 +583,6 @@ export interface BackgroundGeolocationPlugin {
    * Platform: iOS, Android
    * @param success
    * @param fail
-   * @see {@link https://github.com/mauron85/react-native-background-geolocation#getvalidlocationssuccess-fail|Docs}
    */
   getValidLocations(
     success: (location: Location[]) => void,
