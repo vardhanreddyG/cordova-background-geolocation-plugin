@@ -1,0 +1,16 @@
+name: changelog-generator
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Generate changelog
+      uses: heinrichreimer/action-github-changelog-generator@v2.2
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+
