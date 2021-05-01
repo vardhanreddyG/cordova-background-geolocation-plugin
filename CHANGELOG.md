@@ -8,10 +8,13 @@
 
 **Closed issues:**
 
+- Move platform specific sub modules into main repository [\#22](https://github.com/HaylLtd/cordova-background-geolocation-plugin/issues/22)
 - Improve issue templates [\#10](https://github.com/HaylLtd/cordova-background-geolocation-plugin/issues/10)
 - Looking for maintainers [\#2](https://github.com/HaylLtd/cordova-background-geolocation-plugin/issues/2)
 
-# Changelog
+# Historical Changelog
+
+**for cordova-plugin-background-geolocation**
 
 ## [3.1.0] - 2019-09-24
 
