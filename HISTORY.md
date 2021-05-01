@@ -1,4 +1,6 @@
-# Changelog
+# Historical Changelog
+
+**for cordova-plugin-background-geolocation**
 
 ## [3.1.0] - 2019-09-24
 
