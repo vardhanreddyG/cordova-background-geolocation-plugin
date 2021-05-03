@@ -62,19 +62,6 @@ cordova plugin add cordova-background-geolocation-plugin \
   --variable MOTION_USAGE_DESCRIPTION="App requires motion detection"
 ```
 
-Or in `config.xml`:
-
-```xml
-<plugin name="cordova-background-geolocation-plugin" spec="cordova-background-geolocation-plugin@~1.0.0">
-  <variable name="GOOGLE_PLAY_SERVICES_VERSION" value="11+" />
-  <variable name="ANDROID_SUPPORT_LIBRARY_VERSION" value="26+" />
-  <variable name="ICON" value="@mipmap/ic_launcher" />
-  <variable name="SMALL_ICON" value="@mipmap/ic_launcher" />
-  <variable name="ALWAYS_USAGE_DESCRIPTION" value="App requires background tracking " />
-  <variable name="MOTION_USAGE_DESCRIPTION" value="App requires motion detection" /> 
-</plugin>
-```
-
 **Note:** To apply changes, you must remove and reinstall plugin.
 
 ## Registering plugin for Adobe® PhoneGap™ Build
