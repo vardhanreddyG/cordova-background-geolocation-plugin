@@ -83,7 +83,7 @@ To register plugin add following line into your `config.xml`:
 |------------------|-------------------|--------------------------|----------------------|
 | >1.0.0           | 8.0.0             | 8.0.0                    | 6.0.0                |
 
-**Please note** that as of Cordova Android 8.0.0 icons are by default mipmap/rc_launcher  not mipmap/icon, so this plugin will have a build issue on < 8.0.0 Cordova Android builds, you will need to update the icons in AndroidManifest.xml to work on older versions.
+**Please note** that as of Cordova Android 8.0.0 icons are by default mipmap/ic_launcher  not mipmap/icon, so this plugin will have a build issue on < 8.0.0 Cordova Android builds, you will need to update the icons in AndroidManifest.xml to work on older versions.
 
 ### Android SDKs
 
