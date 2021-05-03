@@ -2,9 +2,17 @@
 
 ## [Unreleased](https://github.com/HaylLtd/cordova-background-geolocation-plugin/tree/HEAD)
 
+**Fixed bugs:**
+
+- Missing org.apache.http.legacy library dependency [\#24](https://github.com/HaylLtd/cordova-background-geolocation-plugin/issues/24)
+
 **Closed issues:**
 
 - Move platform specific sub modules into main repository [\#22](https://github.com/HaylLtd/cordova-background-geolocation-plugin/issues/22)
+
+**Merged pull requests:**
+
+- Fix for missing org.apache.http.legacy library dependency [\#25](https://github.com/HaylLtd/cordova-background-geolocation-plugin/pull/25) ([RaddishIoW](https://github.com/RaddishIoW))
 
 ## [1.0.0-rc.4](https://github.com/HaylLtd/cordova-background-geolocation-plugin/tree/1.0.0-rc.4) (2021-05-02)
 
