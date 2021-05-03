@@ -9,3 +9,7 @@ dependencies {
     // promises
     implementation 'com.github.jparkie:promise:1.0.3'
 }
+
+android {
+    useLibrary 'org.apache.http.legacy'
+}
