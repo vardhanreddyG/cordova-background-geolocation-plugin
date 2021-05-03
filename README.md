@@ -57,7 +57,7 @@ You may also want to change default iOS permission prompts and set specific goog
 ```bash
 cordova plugin add cordova-background-geolocation-plugin \
   --variable GOOGLE_PLAY_SERVICES_VERSION=11+ \
-  --variable ANDROID_SUPPORT_LIBRARY_VERSION=23+ \
+  --variable ANDROID_SUPPORT_LIBRARY_VERSION=26+ \
   --variable ALWAYS_USAGE_DESCRIPTION="App requires ..." \
   --variable MOTION_USAGE_DESCRIPTION="App requires motion detection"
 ```
@@ -65,11 +65,11 @@ cordova plugin add cordova-background-geolocation-plugin \
 Or in `config.xml`:
 
 ```xml
-<plugin name="cordova-background-geolocation-plugin" spec="cordova-background-geolocation-plugin@~3.1.0">
+<plugin name="cordova-background-geolocation-plugin" spec="cordova-background-geolocation-plugin@~1.0.0">
   <variable name="GOOGLE_PLAY_SERVICES_VERSION" value="11+" />
   <variable name="ANDROID_SUPPORT_LIBRARY_VERSION" value="26+" />
-  <variable name="ICON" value="@mipmap/icon" />
-  <variable name="SMALL_ICON" value="@mipmap/icon" />
+  <variable name="ICON" value="@mipmap/ic_launcher" />
+  <variable name="SMALL_ICON" value="@mipmap/ic_launcher" />
   <variable name="ALWAYS_USAGE_DESCRIPTION" value="App requires background tracking " />
   <variable name="MOTION_USAGE_DESCRIPTION" value="App requires motion detection" /> 
 </plugin>
@@ -94,24 +94,23 @@ To register plugin add following line into your `config.xml`:
 
 | Plugin version   | Cordova CLI       | Cordova Platform Android | Cordova Platform iOS |
 |------------------|-------------------|--------------------------|----------------------|
-| <2.3.0           | 6.4.0             | 6.3.0                    | 4.4.0                |
-| >=2.3.0          | 7.1.0             | 6.3.0                    | 4.4.0                |
+| >1.0.0           | 8.0.0             | 8.0.0                    | 6.0.0                |
 
-**Please note** that as of Cordova Android 6.0.0 icons are by default in mipmap/ directory not drawable/ directory, so this plugin will have a build issue on < 6.0.0 Cordova builds, you will need to update Authenticator.xml to drawable directory from mipmap directory to work on older versions.
+**Please note** that as of Cordova Android 8.0.0 icons are by default mipmap/rc_launcher  not mipmap/icon, so this plugin will have a build issue on < 8.0.0 Cordova Android builds, you will need to update the icons in AndroidManifest.xml to work on older versions.
 
 ### Android SDKs
 
 You will need to ensure that you have installed the following items through the Android SDK Manager:
 
-| Name                       | Version |
-|----------------------------|---------|
-| Android SDK Tools          | 26.0.2  |
-| Android SDK Platform-tools | 26.0.2  |
-| Android SDK Build-tools    | 26.0.2  |
-| Android Support Repository | 47      |
-| Android Support Library    | 26.1.0  |
-| Google Play Services       | 11.8.0  |
-| Google Repository          | 58      |
+| Name                       | Version  |
+|----------------------------|----------|
+| Android SDK Tools          | >26.0.2  |
+| Android SDK Platform-tools | >26.0.2  |
+| Android SDK Build-tools    | >26.0.2  |
+| Android Support Repository | >47      |
+| Android Support Library    | >26.1.0  |
+| Google Play Services       | >11.8.0  |
+| Google Repository          | >58      |
 
 Android is no longer supporting downloading support libraries through the SDK Manager.
 The support libraries are now available through Google's Maven repository.
