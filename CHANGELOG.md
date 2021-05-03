@@ -5,6 +5,7 @@
 **Fixed bugs:**
 
 - Missing org.apache.http.legacy library dependency [\#24](https://github.com/HaylLtd/cordova-background-geolocation-plugin/issues/24)
+- \[Android\] Fresh install fails on resources \(icon\) not found [\#23](https://github.com/HaylLtd/cordova-background-geolocation-plugin/issues/23)
 
 **Closed issues:**
 
@@ -12,6 +13,7 @@
 
 **Merged pull requests:**
 
+- Fix for missing Android icons [\#26](https://github.com/HaylLtd/cordova-background-geolocation-plugin/pull/26) ([RaddishIoW](https://github.com/RaddishIoW))
 - Fix for missing org.apache.http.legacy library dependency [\#25](https://github.com/HaylLtd/cordova-background-geolocation-plugin/pull/25) ([RaddishIoW](https://github.com/RaddishIoW))
 
 ## [1.0.0-rc.4](https://github.com/HaylLtd/cordova-background-geolocation-plugin/tree/1.0.0-rc.4) (2021-05-02)
