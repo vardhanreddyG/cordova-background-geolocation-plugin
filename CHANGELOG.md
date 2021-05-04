@@ -26,18 +26,6 @@
 
 ## [1.0.0-rc.2](https://github.com/HaylLtd/cordova-background-geolocation-plugin/tree/1.0.0-rc.2) (2021-05-01)
 
-## [1.0.0-rc.1](https://github.com/HaylLtd/cordova-background-geolocation-plugin/tree/1.0.0-rc.1) (2021-05-01)
-
-**Fixed bugs:**
-
-- fix\(ios\): fix notification crash when debug=true [\#20](https://github.com/HaylLtd/cordova-background-geolocation-plugin/pull/20) ([RaddishIoW](https://github.com/RaddishIoW))
-
-**Closed issues:**
-
-- Use Github actions to automate npm publish [\#17](https://github.com/HaylLtd/cordova-background-geolocation-plugin/issues/17)
-- Improve issue templates [\#10](https://github.com/HaylLtd/cordova-background-geolocation-plugin/issues/10)
-- Looking for maintainers [\#2](https://github.com/HaylLtd/cordova-background-geolocation-plugin/issues/2)
-
 # Historical Changelog
 
 **for cordova-plugin-background-geolocation**
