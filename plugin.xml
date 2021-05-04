@@ -2,17 +2,17 @@
 
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
-        id="cordova-plugin-background-geolocation"
-        version="3.1.0">
+        id="cordova-background-geolocation-plugin"
+        version="1.0.0">
     <name>CDVBackgroundGeolocation</name>
     <description>Cordova Background Geolocation Plugin</description>
     <license>Apache-2.0</license>
     <keywords>cordova,phonegap,background,geolocation,gps,location</keywords>
 
     <engines>
-        <engine name="cordova" version=">=7.1.0"/>
-        <engine name="cordova-android" version=">=6.3.0"/>
-        <engine name="cordova-ios" version=">=4.4.0"/>
+        <engine name="cordova" version=">=8.0.0"/>
+        <engine name="cordova-android" version=">=8.0.0"/>
+        <engine name="cordova-ios" version=">=6.0.0"/>
     </engines>
 
     <js-module src="www/BackgroundGeolocation.js" name="BackgroundGeolocation">
@@ -26,8 +26,8 @@
     <platform name="android">
         <preference name="GOOGLE_PLAY_SERVICES_VERSION" default="11+"/>
         <preference name="ANDROID_SUPPORT_LIBRARY_VERSION" default="26+"/>
-        <preference name="ICON" default="@mipmap/icon" />
-        <preference name="SMALL_ICON" default="@mipmap/icon" />
+        <preference name="ICON" default="@mipmap/ic_launcher" />
+        <preference name="SMALL_ICON" default="@mipmap/ic_launcher" />
         <preference name="ACCOUNT_NAME" default="@string/app_name" />
         <preference name="ACCOUNT_LABEL" default="@string/app_name" />
         <preference name="ACCOUNT_TYPE" default="$PACKAGE_NAME.account" />
@@ -151,7 +151,7 @@
             </service>
             <provider
                 android:name="com.marianhello.bgloc.data.provider.LocationContentProvider"
-                android:authorities="@string/mauron85_bgloc_content_authority"
+                android:authorities="@string/plugin_bgloc_content_authority"
                 android:exported="false"
                 android:syncable="true"/>
             <service
@@ -168,6 +168,7 @@
                   <action android:name="android.intent.action.BOOT_COMPLETED" />
                </intent-filter>
             </receiver>
+            <uses-library android:name="org.apache.http.legacy" android:required="true" />
         </config-file>
 
         <config-file target="AndroidManifest.xml" parent="/manifest">
@@ -192,15 +193,15 @@
         </config-file>
 
         <config-file target="res/values/strings.xml" parent="/resources">
-            <string name="mauron85_bgloc_account_name">$ACCOUNT_NAME</string>
-            <string name="mauron85_bgloc_account_type">$ACCOUNT_TYPE</string>
-            <string name="mauron85_bgloc_content_authority">$CONTENT_AUTHORITY</string>
+            <string name="plugin_bgloc_account_name">$ACCOUNT_NAME</string>
+            <string name="plugin_bgloc_account_type">$ACCOUNT_TYPE</string>
+            <string name="plugin_bgloc_content_authority">$CONTENT_AUTHORITY</string>
         </config-file>
 
         <edit-config file="res/xml/authenticator.xml" target="/*" mode="overwrite">
           <account-authenticator
               xmlns:android="http://schemas.android.com/apk/res/android"
-              android:accountType="@string/mauron85_bgloc_account_type"
+              android:accountType="@string/plugin_bgloc_account_type"
               android:icon="$ICON"
               android:smallIcon="$SMALL_ICON"
               android:label="$ACCOUNT_LABEL"/>
@@ -209,8 +210,8 @@
         <edit-config file="res/xml/syncadapter.xml" target="/*" mode="overwrite">
           <sync-adapter
               xmlns:android="http://schemas.android.com/apk/res/android"
-              android:contentAuthority="@string/mauron85_bgloc_content_authority"
-              android:accountType="@string/mauron85_bgloc_account_type"
+              android:contentAuthority="@string/plugin_bgloc_content_authority"
+              android:accountType="@string/plugin_bgloc_account_type"
               android:userVisible="false"
               android:supportsUploading="true"
               android:allowParallelSyncs="false"

@@ -164,7 +164,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0730;
-				ORGANIZATIONNAME = mauron85;
+				ORGANIZATIONNAME = "Hayl Ltd";
 				TargetAttributes = {
 					412A295E1D07311A001EB0E5 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -176,6 +176,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 412A29561D07311A001EB0E5;

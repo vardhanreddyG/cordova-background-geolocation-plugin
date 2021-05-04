@@ -1,4 +1,4 @@
-## Debugging
+# Debugging
 
 Plugin logs all activity into database. Logs are retained for 7 days.
 You can attach your device to the computer and print logs to console.
@@ -75,17 +75,18 @@ function printIosLogs(logEntries) {
 
 Print Android logs:
 
-```
+```javascript
 backgroundGeolocation.getLogEntries(100, printAndroidLogs);
 ```
 
 Print iOS logs:
 
-```
+```javascript
 backgroundGeolocation.getLogEntries(100, printIosLogs);
 ```
 
-### Debugging sounds
+## Debugging sounds
+
 | *event*                             | *ios*                             | *android*               |
 |-------------------------------------|-----------------------------------|-------------------------|
 | Exit stationary region              | Calendar event notification sound | dialtone beep-beep-beep |

@@ -1,11 +1,11 @@
 {
-  "name": "@haylltd/cordova-plugin-background-geolocation",
-  "version": "3.1.0",
+  "name": "cordova-background-geolocation-plugin",
+  "version": "1.0.0",
   "description": "Cordova Background Geolocation Plugin",
   "main": "./www/BackgroundGeolocation.js",
   "types": "./www/BackgroundGeolocation.d.ts",
   "cordova": {
-    "id": "@haylltd/cordova-plugin-background-geolocation",
+    "id": "cordova-background-geolocation-plugin",
     "platforms": [
       "android",
       "ios"
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/haylltd/cordova-plugin-background-geolocation.git"
+    "url": "git+https://github.com/haylltd/cordova-background-geolocation-plugin.git"
   },
   "keywords": [
     "gps",
@@ -28,20 +28,17 @@
   ],
   "engines": {
     "cordovaDependencies": {
-      "0.0.1": {
-        "cordova": ">=3.0.0"
-      },
-      "2.3.3": {
-        "cordova-ios": ">=4.4.0",
-        "cordova-android": ">=6.3.0",
-        "cordova": ">=7.1.0"
+      "1.0.0": {
+        "cordova": ">=8.0.0",
+        "cordova-android": ">=8.0.0",
+        "cordova-ios": ">=6.0.0"
       }
     }
   },
   "author": "",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/haylltd/cordova-plugin-background-geolocation/issues"
+    "url": "https://github.com/haylltd/cordova-background-geolocation-plugin/issues"
   },
-  "homepage": "https://github.com/haylltd/cordova-plugin-background-geolocation#readme"
+  "homepage": "https://github.com/haylltd/cordova-background-geolocation-plugin#readme"
 }
