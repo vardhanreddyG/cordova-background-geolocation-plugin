@@ -1,5 +1,22 @@
 # Changelog
 
+## [Unreleased](https://github.com/HaylLtd/cordova-background-geolocation-plugin/tree/HEAD)
+
+**Implemented enhancements:**
+
+- Add promises and subscription to js interface [\#16](https://github.com/HaylLtd/cordova-background-geolocation-plugin/issues/16)
+
+**Documentation:**
+
+- Move documentation to GitHub Pages [\#32](https://github.com/HaylLtd/cordova-background-geolocation-plugin/issues/32)
+
+**Closed issues:**
+
+- Remove old/stale branches [\#41](https://github.com/HaylLtd/cordova-background-geolocation-plugin/issues/41)
+- Update project documentation to reflect new repository and package details [\#11](https://github.com/HaylLtd/cordova-background-geolocation-plugin/issues/11)
+
+## [v1.0.0](https://github.com/HaylLtd/cordova-background-geolocation-plugin/tree/v1.0.0) (2021-05-04)
+
 ## [v1.0.0-rc.5](https://github.com/HaylLtd/cordova-background-geolocation-plugin/tree/v1.0.0-rc.5) (2021-05-03)
 
 **Fixed bugs:**
